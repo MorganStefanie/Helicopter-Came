@@ -4,13 +4,13 @@ class Helicopter ();
 {
 $ g++ -o guess.bin guess.cpp
 int main(){
-Char attack[100];
+Char name[100];
 
 Public: void set_h();
 
 Count <<"enter name">>;
 
-Cin >> "name";
+Cin >>"name">>;
 
 Fflush(control);
 
@@ -29,7 +29,7 @@ Char name[50]
 
 Public: void set_a()
 
-Helicopter Obj1;
+obj1 helicopter;
 
 Obj1.func(12);
 
